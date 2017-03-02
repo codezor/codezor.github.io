@@ -1,0 +1,75 @@
+body{
+	box-sizing: border-box;
+	
+}
+
+/*Element formating */
+
+h1{
+	color: Green;
+	font-family: Verdana ;
+	text-align: center;
+}
+
+
+p{
+	
+}
+
+/*Section formating */
+div.header{
+	background-color: DeepSkyBlue;
+
+	/*Borders*/
+	border-style: dashed;
+	border-color: red;
+
+	/*Margins*/
+	
+
+	/*Text formatting*/
+	text-align: center;
+	padding: 10px;
+
+}
+
+/*division class formating */
+div.AboutMe{
+	width: 75%;
+	/*text-align: center;*/
+	margin: auto;
+}
+#Skills{
+	border-style: dotted;
+	
+}
+#AboutMe{
+
+
+}
+#Education{
+
+}
+
+#Projects{
+	
+}
+#Future{
+
+}
+
+div.Bears{
+	width: 50%;
+	/*text-align: center;*/
+	margin: auto;
+	
+}
+
+#footer{
+	border: solid;
+	border-color: black;
+	border-style: solid;
+	padding: 5px;
+	text-align: center;
+}
+
