@@ -1,6 +1,9 @@
 body{
 	box-sizing: border-box;
-	
+	background-image: url(http://c.dryicons.com/files/graphics_previews/DD-Abstract-Background-40295-Preview.jpg);
+	background-repeat: no-repeat;	
+	background-size: 	cover;
+
 }
 
 /*Element formating */
@@ -19,7 +22,7 @@ p{
 /*Section formating */
 div.header{
 	background-color: DeepSkyBlue;
-
+		box-sizing: 	border-box;	
 	/*Borders*/
 	border-style: dashed;
 	border-color: red;
@@ -32,6 +35,12 @@ div.header{
 	padding: 10px;
 
 }
+ul.NAV{   list-style-type: none;
+    margin: 0;
+    padding: 0;}
+ ul.NAV li{
+ 	display: inline;
+ }
 
 /*division class formating */
 div.AboutMe{
