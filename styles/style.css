@@ -21,25 +21,43 @@ p{
 
 /*Section formating */
 div.header{
-	background-color: DeepSkyBlue;
-		box-sizing: 	border-box;	
+	
+	outline-color: black;
+	/*background-color: black;
+	/*box-sizing: border-box;	
 	/*Borders*/
-	border-style: dashed;
-	border-color: red;
+	/*border-style: dashed;
+	border-color: green;*/
 
 	/*Margins*/
-	
+	width: 100%
 
 	/*Text formatting*/
 	text-align: center;
-	padding: 10px;
+	padding: 0;
+	margin: 0;
 
 }
-ul.NAV{   list-style-type: none;
+ul.NAV{   
+	list-style-type: none;
     margin: 0;
-    padding: 0;}
+    padding: 10px;
+	border-style: solid;
+    border-color: black;
+}
+
+
  ul.NAV li{
- 	display: inline;
+ 
+ 	margin-left: 100pt;
+ 	align-items: center;
+ 	display: inline; 
+
+ }
+ ul.NAV li a {
+ 	
+ 	text-align: center;
+ 	padding: 0pt;
  }
 
 /*division class formating */
