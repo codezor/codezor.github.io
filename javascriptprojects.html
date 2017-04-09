@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<!-- Header information-->
+<head>
+	<!--MetaData-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- mobile device -->
+	<!-- Add to home screen for Chrome on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<!--Home Screen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--Title-->
+	<title>Codezor's JavaScript'</title>
+	
+	<!--Style Sheet-->
+	<link rel="stylesheet" type="text/css" href="javascriptstyle.css">
+	<link rel="stylesheet" href="styles/javascriptstyle.css">
+	<script type="text/javascript", src="javascript/Geometrycalc.js"></script>
+</head>
+<body>
+<!--Header-->  
+    <div class="header">
+        <h1>This is the JavaScript page</h1>  
+        <p>Still Under Construction</p> 
+    </div>
+
+<div id="pong", class="Game">
+
+	<!--<canvas id="canvas", width='400', height='450'></canvas>-->
+
+</div>
+<div id="rectangle", class="Shapes">
+	<h4>Calculate the Area of a rectangle.</h4>
+	<p>Enter in the rectangle Width: </p>
+	<input id="rectangleBase">
+	<p>Enter in the rectangle Height </p>
+	<input id = "rectangleHeight">
+	<button id="rectangleButton", onclick="rectangleArea()"> Calculate</button>
+	<p>The Area is: </p>
+	<p id="RectangleArea"></p>
+</div>	
+<div id="triangle", class="Shapes">
+	<h4>Calculate the Area of a triangle.</h4>
+	<p>Enter in the triangle Width: </p>
+	<input id="triangleBase">
+	<p>Enter in the triangle Height </p>
+	<input id = "triangleHeight">
+	<button id="triangleButton", onclick="triangleArea()"> Calculate</button>
+	<p>The Area is: </p>
+	<p id="TriangleArea"></p>
+</div>
+</body>
