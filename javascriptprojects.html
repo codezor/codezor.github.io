@@ -3,63 +3,88 @@
 <!-- Header information-->
 <head>
 	<!--MetaData-->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8" >
+    <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
 	<!-- mobile device -->
 	<!-- Add to home screen for Chrome on Android -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<!--Home Screen for Safari on iOS -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
 	
 	<!--Title-->
-	<title>Codezor's JavaScript'</title>
 	
-	<!--Style Sheet-->
-	<link rel="stylesheet" type="text/css" href="styles/javascriptstyle.css">
-	<link rel="stylesheet" href="styles/javascriptstyle.css">
-	<script type="text/javascript", src="javascript/Geometrycalc.js"></script>
+	<!--Title-->
+	<title>Quick JavaScript Projects</title>
+	
+	<!--Calculator Codet-->	
+	<script type="text/javascript", src="js/Geometrycalc.js"></script>
 </head>
 <body>
+	<!--Navigation Bar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class ="container">
+				<a class="navbar-brand" href='index.html'>Cody Crofford</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+	
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						<a class="nav-link" href="https://github.com/codezor">My GitHub </a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="https://www.linkedin.com/in/cody-crofford-0567354a/">Linkedin</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href='Projects.html'>Projects</a>						
+						</li>							
+					</ul>
+				</div>
+			</div>
+		</nav>
+	
 <!--Header-->  
-    <div class="header">
+    <div class="container">
         <h1>This is the JavaScript page</h1>  
         <p>Still Under Construction</p> 
     </div>
-<!--Navigation-->
-    <div id="Navigation">
-        <ul class=" NAV">
-            <li ><a href="index.html" > Home</a> </li>
-            <li ><a href='Projects.html'>Projects</a></li>
-            <li> <a href="https://www.linkedin.com/in/cody-crofford-0567354a/">Linkedin</a> </li>
-            <li ><a href="https://github.com/codezor"> My GitHub </a> </li>
-                   
-        </ul>
-    </div>
-<div id="pong", class="Game">
 
-	<!--<canvas id="canvas", width='400', height='450'></canvas>-->
-
-</div>
-<div id="rectangle", class="Shapes">
+<div class= container>
+	<div class= "row">
+			<div class="col-md-6"> 
 	<h4>Calculate the Area of a rectangle.</h4>
 	<p>Enter in the rectangle Width: </p>
 	<input id="rectangleBase">
-	<p>Enter in the rectangle Height </p>
+	<p>Enter in the rectangle Height: </p>
 	<input id = "rectangleHeight">
 	<button id="rectangleButton", onclick="rectangleArea()"> Calculate</button>
 	<p>The Area is: </p>
-	<p id="RectangleArea"></p>
-</div>	
-<div id="triangle", class="Shapes">
+	<p id="RectangleArea"></p>	
+</div>
+<div class="col-md-6"> 
 	<h4>Calculate the Area of a triangle.</h4>
 	<p>Enter in the triangle Width: </p>
 	<input id="triangleBase">
-	<p>Enter in the triangle Height </p>
+	<p>Enter in the triangle Height: </p>
 	<input id = "triangleHeight">
 	<button id="triangleButton", onclick="triangleArea()"> Calculate</button>
 	<p>The Area is: </p>
 	<p id="TriangleArea"></p>
 </div>
+</div>
+</div>
+
+
+	
+</div>
+<!-- Optional JavaScript -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
